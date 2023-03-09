@@ -1,13 +1,9 @@
-# Sample Hardhat Project
+El smart contract tiene las siguientes funciones:
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+set
 
-Try running some of the following tasks:
+que acepta un valor numerico y lo guarda en la blockchain
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
-```
+get
+
+que devuelve el ultimo valor guardado en la blockchain
